@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Analysis Tool</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        pre {
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+        }
+        </style>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+
+        <h1>Term analysis evaluation</h1>
+
+        <form action="ec2-54-236-13-111.compute-1.amazonaws.com/nature-english/_analyze" method="post" id="analysis-form">
+            <label>Index: </label><br>
+            <input type="text" name="index" value="nature-papers-english"><br>
+            <label>Analyzer: </label><br>
+            <input type="text" name="analyzer" value="an-1-english"><br>
+            <label>Text: </label><br>
+            <textarea name="text">This is an example</textarea><br>
+            <input type="submit" value="See analysis">
+        </form>
+        <br>
+        <div id="server-results" style='width: 100%; margin-left: auto; margin-right: auto; word-wrap: break-word;'>
+        </div>
+    </body>
+</html>

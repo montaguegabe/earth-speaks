@@ -1,4 +1,6 @@
+# Important ones:
 credentials
+data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -91,6 +93,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.env3
 
 # Spyder project settings
 .spyderproject
