@@ -33,7 +33,7 @@ ptyprocess==0.5.2
 -e git+https://github.com/nasa/pyCMR.git@e67b8e5bea03e58505ff1ffa21e782b755facced#egg=pyCMR
 pycookiecheat==0.4.3
 pycrypto==2.6.1
-Pygments==2.2.0
+Pygments==2.7.4
 pyparsing==2.2.0
 pyperclip==1.6.0
 python-dateutil==2.7.2
